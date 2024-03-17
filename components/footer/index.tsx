@@ -1,4 +1,4 @@
-import { Div, Footer as FooterElement, H2, P } from '@stylin.js/elements';
+import { Div, Footer as FooterElement, H2, Img, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
 const Footer: FC = () => (
@@ -10,6 +10,7 @@ const Footer: FC = () => (
       display="flex"
       maxWidth="1024px"
       textAlign="center"
+      alignItems="center"
       flexDirection="column"
     >
       <H2 textTransform="uppercase" fontSize="3rem">
@@ -21,6 +22,14 @@ const Footer: FC = () => (
         investment and simply a community/culture token similar to $pepe. No
         Promises, No Utility, Purely For Entertainment Purposes
       </P>
+      <Img
+        width="10rem"
+        height="10rem"
+        objectFit="cover"
+        borderRadius="50%"
+        src="/img/obliquo-book.webp"
+        alt="The Book of Andlew Tote with Background"
+      />
     </Div>
   </FooterElement>
 );

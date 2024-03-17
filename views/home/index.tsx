@@ -1,4 +1,4 @@
-import { Div, H2, Header, Img, Main, P } from '@stylin.js/elements';
+import { Button, Div, H2, Header, Img, Main, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
 import { Footer, Layout, Navbar } from '@/components';
@@ -7,7 +7,14 @@ const Home: FC = () => (
   <Layout>
     <Header bg="rgb(255, 225, 194)">
       <Navbar />
-      <Div my="5rem" mx="auto" display="flex" justifyContent="center">
+      <Div
+        my="5rem"
+        mx="auto"
+        gap="5rem"
+        display="flex"
+        alignItems="center"
+        flexDirection="column"
+      >
         <Img
           width="15rem"
           height="15rem"
@@ -16,6 +23,18 @@ const Home: FC = () => (
           src="/img/book.webp"
           alt="The Book of Andlew Tote with Background"
         />
+        <Button
+          all="unset"
+          py="1rem"
+          px="2rem"
+          fontSize="1.5rem"
+          borderRadius="2rem"
+          bg="rgb(1, 209, 214)"
+          fontFamily="GochiHand"
+          boxShadow="3px 3px 1px #fff"
+        >
+          Buy Now
+        </Button>
       </Div>
     </Header>
     <Main flex="1" p="5rem">

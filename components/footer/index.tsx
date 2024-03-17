@@ -16,7 +16,7 @@ const Footer: FC = () => (
       <H2 textTransform="uppercase" fontSize="3rem">
         Contract:
       </H2>
-      <P>✅ Contract: 8qk86aJUJpUuVV3jfwLPjFaTX9QV9FbK13TM8G2sU38K</P>
+      <P>✅ Contract: 7EGxmyu8DEvVVW3SxQBVeRh6ft3Qbtx2WXOW9NWxb2W7oxZ1</P>
       <P>
         $RICHBYMEME is a memecoin with no intrinsic value, and is not a
         investment and simply a community/culture token similar to $pepe. No

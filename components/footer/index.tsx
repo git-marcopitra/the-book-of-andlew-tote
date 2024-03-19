@@ -2,7 +2,7 @@ import { Div, Footer as FooterElement, H2, Img, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
 const Footer: FC = () => (
-  <FooterElement px="2rem" py="4rem" bg="rgb(209, 230, 255)">
+  <FooterElement px="2rem" py="4rem" backdropFilter="blur(12px)">
     <Div
       mx="auto"
       gap="2rem"
@@ -16,7 +16,7 @@ const Footer: FC = () => (
       <H2 textTransform="uppercase" fontSize="3rem">
         Contract:
       </H2>
-      <P>✅ Contract: 7EGxmyu8DEvVVW3SxQBVeRh6ft3Qbtx2WXOW9NWxb2W7oxZ1</P>
+      <P>✅ Contract: 7EGxmyu8DEvVVW3SxQBVeRh6ft3Qbtx2WNWxb2W7oxZ1</P>
       <P>
         $RICHBYMEME is a memecoin with no intrinsic value, and is not a
         investment and simply a community/culture token similar to $pepe. No

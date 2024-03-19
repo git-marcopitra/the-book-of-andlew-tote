@@ -40,9 +40,9 @@ const Home: FC = () => (
             px="2rem"
             fontSize="1.5rem"
             borderRadius="2rem"
-            bg="rgb(1, 209, 214)"
+            bg="#E80"
             fontFamily="GochiHand"
-            boxShadow="3px 3px 1px #fff"
+            boxShadow="3px 3px 1px #C60"
           >
             Buy Now
           </Button>

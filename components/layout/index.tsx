@@ -6,14 +6,7 @@ import SEO from '../seo';
 const Layout: FC<PropsWithChildren> = ({ children }) => (
   <>
     <SEO />
-    <Div
-      minHeight="100vh"
-      display="flex"
-      flexDirection="column"
-      backgroundImage="url(/img/background.webp)"
-      backgroundPosition="center center"
-      backgroundSize="cover"
-    >
+    <Div display="flex" minHeight="100vh" flexDirection="column">
       {children}
     </Div>
   </>

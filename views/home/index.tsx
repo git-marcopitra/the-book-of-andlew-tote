@@ -1,38 +1,46 @@
-import { Button, Div, H2, Header, Img, Main, P } from '@stylin.js/elements';
+import { Button, Div, H1, H2, Header, Img, Main, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
-import { Footer, Layout, Navbar } from '@/components';
+import { Footer, Layout } from '@/components';
 
 const Home: FC = () => (
   <Layout>
-    <Header bg="rgb(255, 225, 194)" position="relative">
-      <Navbar />
+    <Header position="relative">
       <Div
         my="5rem"
         mx="auto"
         gap="5rem"
-        display="grid"
+        display="flex"
         maxWidth="1024px"
         alignItems="center"
-        justifyItems="center"
-        gridTemplateColumns={['1fr', '1fr 1fr']}
+        justifyContent="center"
       >
-        <Img
-          width="15rem"
-          height="15rem"
-          objectFit="cover"
-          borderRadius="50%"
-          src="/img/andlew-tote.webp"
-          alt="The Book of Andlew Tote with Background"
-        />
         <Div
           p="2rem"
           gap="2rem"
           display="flex"
+          textAlign="center"
+          alignItems="center"
           flexDirection="column"
-          alignItems={['center', 'start']}
         >
-          <H2 fontSize="3rem">Andlew Tote</H2>
+          <Img
+            width="15rem"
+            height="15rem"
+            objectFit="cover"
+            borderRadius="50%"
+            src="/img/andlew-tote.webp"
+            alt="The Book of Andlew Tote with Background"
+          />
+          <H1
+            title="The Book of Andlew Tote"
+            aria-label="The Book of Andlew Tote"
+          >
+            <Img
+              height="10rem"
+              src="/img/logo.webp"
+              alt="The Book of Andlew Tote"
+            />
+          </H1>
           <P fontSize="1.8rem">The book with the best Andlew Tote Quotes</P>
           <Button
             all="unset"

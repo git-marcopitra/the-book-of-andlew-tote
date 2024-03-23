@@ -5,13 +5,16 @@ export const GlobalStyles = css`
     font-family: 'GochiHand';
     src: url('/fonts/GochiHand-Regular.ttf');
   }
+  @font-face {
+    font-family: 'Holywind';
+    src: url('/fonts/Holywind.ttf');
+  }
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'GochiHand';
   }
 
   h1,
@@ -20,7 +23,7 @@ export const GlobalStyles = css`
   h4,
   h5,
   h6 {
-    font-family: 'GochiHand';
+    font-family: 'Holywind';
     text-shadow: 3px 3px 0 #fff;
   }
 

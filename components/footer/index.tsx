@@ -2,7 +2,7 @@ import { Div, Footer as FooterElement, H2, Img, P } from '@stylin.js/elements';
 import { FC } from 'react';
 
 const Footer: FC = () => (
-  <FooterElement px="2rem" py="4rem" backdropFilter="blur(12px)">
+  <FooterElement px="2rem" py="4rem">
     <Div
       mx="auto"
       gap="2rem"
